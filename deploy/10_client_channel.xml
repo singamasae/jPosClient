@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<channel-adaptor name='jpos-client-adaptor' class="org.jpos.q2.iso.ChannelAdaptor"
+	logger="Q2">
+	<channel class="org.jpos.iso.channel.ASCIIChannel" logger="Q2" packager="org.jpos.iso.packager.ISO87APackager">		
+		<property name="host" value="127.0.0.1" />
+		<property name="port" value="13337" />
+	</channel>
+	<in>jpos-client-send</in>
+	<out>jpos-client-receive</out>
+	<reconnect-delay>10000</reconnect-delay>
+</channel-adaptor>
+
