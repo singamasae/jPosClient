@@ -1,7 +1,8 @@
 <?xml version="1.0" ?>
 <channel-adaptor name='jpos-client-adaptor' class="org.jpos.q2.iso.ChannelAdaptor"
 	logger="Q2">
-	<channel class="org.jpos.iso.channel.ASCIIChannel" logger="Q2" packager="org.jpos.iso.packager.ISO87APackager">		
+	
+	<channel class="com.jpos.client.main.iso.MyChannel" logger="Q2" packager="com.jpos.client.main.iso.MyPackager">		
 		<property name="host" value="127.0.0.1" />
 		<property name="port" value="13337" />
 	</channel>

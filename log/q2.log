@@ -3898,3 +3898,2739 @@ q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
     Response time (ms):21
   </info>
 </log>
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="Mon Nov 21 11:57:52.904 SGT 2016" lifespan="513ms">
+  <info>
+    Q2 started, deployDir=E:\Andara Code Repositories\jPosClient\deploy
+    
+    jPOS 2.0.0 master/be6e219 (2015-02-25 22:04:06 UYST) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </info>
+</log>
+<log realm="Q2.system" at="Mon Nov 21 11:57:52.916 SGT 2016" lifespan="6ms">
+  <info>
+    deploy: E:\Andara Code Repositories\jPosClient\deploy\10_client_channel.xml
+  </info>
+</log>
+<log realm="Q2.system" at="Mon Nov 21 11:57:52.922 SGT 2016" lifespan="5ms">
+  <info>
+    deploy: E:\Andara Code Repositories\jPosClient\deploy\20_client_mux.xml
+  </info>
+</log>
+<log realm="jpos-client-application" at="Mon Nov 21 11:57:52.928 SGT 2016">
+  <info>
+    initializing jpos-client Service...
+  </info>
+</log>
+<log realm="jpos-client-application" at="Mon Nov 21 11:57:52.929 SGT 2016">
+  <info>
+    jpos-client is ready!
+  </info>
+</log>
+<log realm="Q2.system" at="Mon Nov 21 11:57:52.930 SGT 2016" lifespan="7ms">
+  <info>
+    deploy: E:\Andara Code Repositories\jPosClient\deploy\30_client_channel_manager.xml
+  </info>
+</log>
+<log realm="Q2.system" at="Mon Nov 21 11:57:52.936 SGT 2016" lifespan="5ms">
+  <info>
+    deploy: E:\Andara Code Repositories\jPosClient\deploy\99_sysmon.xml
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="Mon Nov 21 11:57:52.954 SGT 2016">
+  <info>
+    Starting SystemMonitor
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="Mon Nov 21 11:57:52.955 SGT 2016">
+  <info>
+               OS: Windows 7
+             host: rudy-PC/192.168.2.150
+          version: 2.0.0 (be6e219)
+         instance: 698dc3fd-9194-40f4-8deb-e8a1fb1edb24
+           uptime: 00:00:00.979
+       processors: 4
+           drift : 0
+    memory(t/u/f): 119/16/102
+          threads: 7
+            Thread[Reference Handler,10,system]
+            Thread[Finalizer,8,system]
+            Thread[Signal Dispatcher,9,system]
+            Thread[Attach Listener,5,system]
+            Thread[main,5,main]
+            Thread[Q2-698dc3fd-9194-40f4-8deb-e8a1fb1edb24,5,main]
+            Thread[pool-1-thread-1,5,main]
+            Thread[Timer-0,5,main]
+            Thread[channel-sender-jpos-client-send,5,main]
+            Thread[channel-receiver-jpos-client-receive,5,main]
+            Thread[SystemMonitor,5,main]
+         encoding: windows-1252
+    name-registrar:
+      tspace:default: org.jpos.space.TSpace
+        <keycount>-1</keycount>
+        <gcinfo>0,0</gcinfo>
+
+      jpos-client-adaptor: org.jpos.q2.iso.ChannelAdaptor
+        tx=0, rx=0, connects=0, last=0
+      logger.Q2: org.jpos.util.Logger
+      channel.jpos-client-adaptor: com.jpos.client.main.iso.MyChannel
+      mux.jpos-client-mux: org.jpos.q2.iso.QMUX
+        tx=0, rx=0, tx_expired=0, tx_pending=0, rx_expired=0, rx_pending=0, rx_unhandled=0, rx_forwarded=0, connected=true, last=0
+      logger.Q2.buffered: org.jpos.util.BufferedLogListener
+      jpos-client-manager: com.jpos.client.main.iso.ChannelManager
+  </info>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 11:57:53.010 SGT 2016" lifespan="56ms">
+  <connect>
+    127.0.0.1:13337
+  </connect>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 11:57:55.218 SGT 2016" lifespan="1ms">
+  <send>
+    <isomsg direction="outgoing">
+      <!-- org.jpos.iso.packager.ISO87APackager -->
+      <field id="0" value="0800"/>
+      <field id="7" value="1121115755"/>
+      <field id="11" value="000036"/>
+      <field id="70" value="301"/>
+    </isomsg>
+  </send>
+</log>
+<log realm="jpos-client-application" at="Mon Nov 21 11:58:25.224 SGT 2016">
+  <info>
+    Response time (ms):30008
+  </info>
+</log>
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="Mon Nov 21 12:03:38.668 SGT 2016" lifespan="517ms">
+  <info>
+    Q2 started, deployDir=E:\Andara Code Repositories\jPosClient\deploy
+    
+    jPOS 2.0.0 master/be6e219 (2015-02-25 22:04:06 UYST) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </info>
+</log>
+<log realm="Q2.system" at="Mon Nov 21 12:03:38.680 SGT 2016" lifespan="6ms">
+  <info>
+    deploy: E:\Andara Code Repositories\jPosClient\deploy\10_client_channel.xml
+  </info>
+</log>
+<log realm="Q2.system" at="Mon Nov 21 12:03:38.687 SGT 2016" lifespan="6ms">
+  <info>
+    deploy: E:\Andara Code Repositories\jPosClient\deploy\20_client_mux.xml
+  </info>
+</log>
+<log realm="jpos-client-application" at="Mon Nov 21 12:03:38.692 SGT 2016">
+  <info>
+    initializing jpos-client Service...
+  </info>
+</log>
+<log realm="jpos-client-application" at="Mon Nov 21 12:03:38.693 SGT 2016">
+  <info>
+    jpos-client is ready!
+  </info>
+</log>
+<log realm="Q2.system" at="Mon Nov 21 12:03:38.694 SGT 2016" lifespan="6ms">
+  <info>
+    deploy: E:\Andara Code Repositories\jPosClient\deploy\30_client_channel_manager.xml
+  </info>
+</log>
+<log realm="Q2.system" at="Mon Nov 21 12:03:38.699 SGT 2016" lifespan="4ms">
+  <info>
+    deploy: E:\Andara Code Repositories\jPosClient\deploy\99_sysmon.xml
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="Mon Nov 21 12:03:38.717 SGT 2016">
+  <info>
+    Starting SystemMonitor
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="Mon Nov 21 12:03:38.719 SGT 2016">
+  <info>
+               OS: Windows 7
+             host: rudy-PC/192.168.2.150
+          version: 2.0.0 (be6e219)
+         instance: 53decea2-ca85-4aac-b95b-f7066550c69c
+           uptime: 00:00:00.900
+       processors: 4
+           drift : 0
+    memory(t/u/f): 119/16/102
+          threads: 7
+            Thread[Reference Handler,10,system]
+            Thread[Finalizer,8,system]
+            Thread[Signal Dispatcher,9,system]
+            Thread[Attach Listener,5,system]
+            Thread[main,5,main]
+            Thread[Q2-53decea2-ca85-4aac-b95b-f7066550c69c,5,main]
+            Thread[pool-1-thread-1,5,main]
+            Thread[Timer-0,5,main]
+            Thread[channel-sender-jpos-client-send,5,main]
+            Thread[channel-receiver-jpos-client-receive,5,main]
+            Thread[SystemMonitor,5,main]
+         encoding: windows-1252
+    name-registrar:
+      tspace:default: org.jpos.space.TSpace
+        <keycount>-1</keycount>
+        <gcinfo>0,0</gcinfo>
+
+      jpos-client-adaptor: org.jpos.q2.iso.ChannelAdaptor
+        tx=0, rx=0, connects=0, last=0
+      logger.Q2: org.jpos.util.Logger
+      channel.jpos-client-adaptor: com.jpos.client.main.iso.MyChannel
+      mux.jpos-client-mux: org.jpos.q2.iso.QMUX
+        tx=0, rx=0, tx_expired=0, tx_pending=0, rx_expired=0, rx_pending=0, rx_unhandled=0, rx_forwarded=0, connected=true, last=0
+      logger.Q2.buffered: org.jpos.util.BufferedLogListener
+      jpos-client-manager: com.jpos.client.main.iso.ChannelManager
+  </info>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 12:03:38.732 SGT 2016" lifespan="13ms">
+  <connect>
+    127.0.0.1:13337
+  </connect>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 12:03:40.994 SGT 2016" lifespan="2ms">
+  <send>
+    <isomsg direction="outgoing">
+      <!-- org.jpos.iso.packager.ISO87APackager -->
+      <field id="0" value="0800"/>
+      <field id="7" value="1121120340"/>
+      <field id="11" value="000135"/>
+      <field id="70" value="301"/>
+    </isomsg>
+  </send>
+</log>
+<log realm="jpos-client-application" at="Mon Nov 21 12:04:10.991 SGT 2016">
+  <info>
+    Response time (ms):30002
+  </info>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 12:08:38.750 SGT 2016" lifespan="300016ms">
+  <receive>
+    <io-timeout/>
+  </receive>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="Mon Nov 21 12:08:38.752 SGT 2016">
+  <warn>
+    channel-receiver-jpos-client-receive
+    Read timeout
+  </warn>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 12:08:48.755 SGT 2016" lifespan="1ms">
+  <connect>
+    127.0.0.1:13337
+  </connect>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 12:13:48.762 SGT 2016" lifespan="300004ms">
+  <receive>
+    <io-timeout/>
+  </receive>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="Mon Nov 21 12:13:48.769 SGT 2016">
+  <warn>
+    channel-receiver-jpos-client-receive
+    Read timeout
+  </warn>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 12:13:58.772 SGT 2016" lifespan="1ms">
+  <connect>
+    127.0.0.1:13337
+  </connect>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 12:18:58.758 SGT 2016" lifespan="299983ms">
+  <receive>
+    <io-timeout/>
+  </receive>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="Mon Nov 21 12:18:58.760 SGT 2016">
+  <warn>
+    channel-receiver-jpos-client-receive
+    Read timeout
+  </warn>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 12:19:08.778 SGT 2016" lifespan="1ms">
+  <connect>
+    127.0.0.1:13337
+  </connect>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 12:24:08.764 SGT 2016" lifespan="299983ms">
+  <receive>
+    <io-timeout/>
+  </receive>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="Mon Nov 21 12:24:08.768 SGT 2016">
+  <warn>
+    channel-receiver-jpos-client-receive
+    Read timeout
+  </warn>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 12:24:18.772 SGT 2016" lifespan="2ms">
+  <connect>
+    127.0.0.1:13337
+  </connect>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 12:29:18.757 SGT 2016" lifespan="299983ms">
+  <receive>
+    <io-timeout/>
+  </receive>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="Mon Nov 21 12:29:18.762 SGT 2016">
+  <warn>
+    channel-receiver-jpos-client-receive
+    Read timeout
+  </warn>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 12:29:28.782 SGT 2016" lifespan="1ms">
+  <connect>
+    127.0.0.1:13337
+  </connect>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 12:34:28.768 SGT 2016" lifespan="299983ms">
+  <receive>
+    <peer-disconnect/>
+  </receive>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="Mon Nov 21 12:34:28.773 SGT 2016">
+  <warn>
+    channel-receiver-jpos-client-receive
+    <exception name="null">
+    java.io.EOFException
+	at java.io.DataInputStream.readFully(Unknown Source)
+	at com.jpos.client.main.iso.MyChannel.getMessageLength(MyChannel.java:27)
+	at org.jpos.iso.BaseChannel.receive(BaseChannel.java:699)
+	at org.jpos.q2.iso.ChannelAdaptor$Receiver.run(ChannelAdaptor.java:317)
+	at java.lang.Thread.run(Unknown Source)
+    </exception>
+  </warn>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 12:34:38.778 SGT 2016" lifespan="1ms">
+  <connect>
+    127.0.0.1:13337
+  </connect>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 12:39:38.765 SGT 2016" lifespan="299984ms">
+  <receive>
+    <io-timeout/>
+  </receive>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="Mon Nov 21 12:39:38.766 SGT 2016">
+  <warn>
+    channel-receiver-jpos-client-receive
+    Read timeout
+  </warn>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 12:39:48.772 SGT 2016" lifespan="1ms">
+  <connect>
+    127.0.0.1:13337
+  </connect>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 12:44:48.758 SGT 2016" lifespan="299983ms">
+  <receive>
+    <peer-disconnect/>
+  </receive>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="Mon Nov 21 12:44:48.759 SGT 2016">
+  <warn>
+    channel-receiver-jpos-client-receive
+    <exception name="null">
+    java.io.EOFException
+	at java.io.DataInputStream.readFully(Unknown Source)
+	at com.jpos.client.main.iso.MyChannel.getMessageLength(MyChannel.java:27)
+	at org.jpos.iso.BaseChannel.receive(BaseChannel.java:699)
+	at org.jpos.q2.iso.ChannelAdaptor$Receiver.run(ChannelAdaptor.java:317)
+	at java.lang.Thread.run(Unknown Source)
+    </exception>
+  </warn>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 12:44:59.765 SGT 2016" lifespan="1ms">
+  <connect>
+    127.0.0.1:13337
+  </connect>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 12:49:59.749 SGT 2016" lifespan="299983ms">
+  <receive>
+    <io-timeout/>
+  </receive>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="Mon Nov 21 12:49:59.750 SGT 2016">
+  <warn>
+    channel-receiver-jpos-client-receive
+    Read timeout
+  </warn>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 12:50:09.755 SGT 2016" lifespan="1ms">
+  <connect>
+    127.0.0.1:13337
+  </connect>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 12:55:09.739 SGT 2016" lifespan="299983ms">
+  <receive>
+    <io-timeout/>
+  </receive>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="Mon Nov 21 12:55:09.741 SGT 2016">
+  <warn>
+    channel-receiver-jpos-client-receive
+    Read timeout
+  </warn>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 12:55:20.743 SGT 2016" lifespan="1ms">
+  <connect>
+    127.0.0.1:13337
+  </connect>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 13:00:20.729 SGT 2016" lifespan="299984ms">
+  <receive>
+    <peer-disconnect/>
+  </receive>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="Mon Nov 21 13:00:20.736 SGT 2016">
+  <warn>
+    channel-receiver-jpos-client-receive
+    <exception name="null">
+    java.io.EOFException
+	at java.io.DataInputStream.readFully(Unknown Source)
+	at com.jpos.client.main.iso.MyChannel.getMessageLength(MyChannel.java:27)
+	at org.jpos.iso.BaseChannel.receive(BaseChannel.java:699)
+	at org.jpos.q2.iso.ChannelAdaptor$Receiver.run(ChannelAdaptor.java:317)
+	at java.lang.Thread.run(Unknown Source)
+    </exception>
+  </warn>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 13:00:31.739 SGT 2016" lifespan="1ms">
+  <connect>
+    127.0.0.1:13337
+  </connect>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="Mon Nov 21 13:03:38.578 SGT 2016">
+  <info>
+               OS: Windows 7
+             host: rudy-PC/192.168.2.150
+          version: 2.0.0 (be6e219)
+         instance: 53decea2-ca85-4aac-b95b-f7066550c69c
+           uptime: 01:00:00.753
+       processors: 4
+           drift : -153
+    memory(t/u/f): 119/27/91
+          threads: 7
+            Thread[Reference Handler,10,system]
+            Thread[Finalizer,8,system]
+            Thread[Signal Dispatcher,9,system]
+            Thread[Attach Listener,5,system]
+            Thread[Q2-53decea2-ca85-4aac-b95b-f7066550c69c,5,main]
+            Thread[pool-1-thread-1,5,main]
+            Thread[Timer-0,5,main]
+            Thread[channel-sender-jpos-client-send,5,main]
+            Thread[channel-receiver-jpos-client-receive,5,main]
+            Thread[SystemMonitor,5,main]
+            Thread[DestroyJavaVM,5,main]
+         encoding: windows-1252
+    name-registrar:
+      tspace:default: org.jpos.space.TSpace
+        <key count='1'>jpos-client-adaptor.ready</key>
+        <keycount>0</keycount>
+        <gcinfo>0,0</gcinfo>
+
+      jpos-client-adaptor: org.jpos.q2.iso.ChannelAdaptor
+        tx=1, rx=0, connects=12, last=0
+      logger.Q2: org.jpos.util.Logger
+      channel.jpos-client-adaptor: com.jpos.client.main.iso.MyChannel
+      mux.jpos-client-mux: org.jpos.q2.iso.QMUX
+        tx=1, rx=0, tx_expired=0, tx_pending=0, rx_expired=1, rx_pending=0, rx_unhandled=0, rx_forwarded=0, connected=true, last=0
+      logger.Q2.buffered: org.jpos.util.BufferedLogListener
+      jpos-client-manager: com.jpos.client.main.iso.ChannelManager
+  </info>
+</log>
+<log realm="Q2.system" at="Mon Nov 21 13:03:38.899 SGT 2016" lifespan="9ms">
+  <version>
+    jPOS 2.0.0 master/be6e219 (2015-02-25 22:04:06 UYST) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </version>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 13:05:31.724 SGT 2016" lifespan="299983ms">
+  <receive>
+    <peer-disconnect/>
+  </receive>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="Mon Nov 21 13:05:31.725 SGT 2016">
+  <warn>
+    channel-receiver-jpos-client-receive
+    <exception name="null">
+    java.io.EOFException
+	at java.io.DataInputStream.readFully(Unknown Source)
+	at com.jpos.client.main.iso.MyChannel.getMessageLength(MyChannel.java:27)
+	at org.jpos.iso.BaseChannel.receive(BaseChannel.java:699)
+	at org.jpos.q2.iso.ChannelAdaptor$Receiver.run(ChannelAdaptor.java:317)
+	at java.lang.Thread.run(Unknown Source)
+    </exception>
+  </warn>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 13:05:41.730 SGT 2016" lifespan="1ms">
+  <connect>
+    127.0.0.1:13337
+  </connect>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 13:10:41.743 SGT 2016" lifespan="300012ms">
+  <receive>
+    <io-timeout/>
+  </receive>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="Mon Nov 21 13:10:41.744 SGT 2016">
+  <warn>
+    channel-receiver-jpos-client-receive
+    Read timeout
+  </warn>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 13:10:51.748 SGT 2016" lifespan="1ms">
+  <connect>
+    127.0.0.1:13337
+  </connect>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 13:15:51.763 SGT 2016" lifespan="300014ms">
+  <receive>
+    <io-timeout/>
+  </receive>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="Mon Nov 21 13:15:51.767 SGT 2016" lifespan="3ms">
+  <warn>
+    channel-receiver-jpos-client-receive
+    Read timeout
+  </warn>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 13:16:01.771 SGT 2016" lifespan="1ms">
+  <connect>
+    127.0.0.1:13337
+  </connect>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 13:21:01.784 SGT 2016" lifespan="300012ms">
+  <receive>
+    <io-timeout/>
+  </receive>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="Mon Nov 21 13:21:01.785 SGT 2016">
+  <warn>
+    channel-receiver-jpos-client-receive
+    Read timeout
+  </warn>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 13:21:12.787 SGT 2016" lifespan="1ms">
+  <connect>
+    127.0.0.1:13337
+  </connect>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 13:26:12.772 SGT 2016" lifespan="299984ms">
+  <receive>
+    <io-timeout/>
+  </receive>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="Mon Nov 21 13:26:12.773 SGT 2016">
+  <warn>
+    channel-receiver-jpos-client-receive
+    Read timeout
+  </warn>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 13:26:22.776 SGT 2016" lifespan="1ms">
+  <connect>
+    127.0.0.1:13337
+  </connect>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 13:31:22.761 SGT 2016" lifespan="299981ms">
+  <receive>
+    <peer-disconnect/>
+  </receive>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="Mon Nov 21 13:31:22.762 SGT 2016">
+  <warn>
+    channel-receiver-jpos-client-receive
+    <exception name="null">
+    java.io.EOFException
+	at java.io.DataInputStream.readFully(Unknown Source)
+	at com.jpos.client.main.iso.MyChannel.getMessageLength(MyChannel.java:27)
+	at org.jpos.iso.BaseChannel.receive(BaseChannel.java:699)
+	at org.jpos.q2.iso.ChannelAdaptor$Receiver.run(ChannelAdaptor.java:317)
+	at java.lang.Thread.run(Unknown Source)
+    </exception>
+  </warn>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 13:31:33.767 SGT 2016" lifespan="1ms">
+  <connect>
+    127.0.0.1:13337
+  </connect>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 13:35:04.213 SGT 2016" lifespan="210445ms">
+  <receive>
+    <peer-disconnect>Connection reset</peer-disconnect>
+  </receive>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="Mon Nov 21 13:35:04.214 SGT 2016">
+  <warn>
+    channel-receiver-jpos-client-receive
+    <exception name="Connection reset">
+    java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.io.BufferedInputStream.fill(Unknown Source)
+	at java.io.BufferedInputStream.read1(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at java.io.DataInputStream.readFully(Unknown Source)
+	at com.jpos.client.main.iso.MyChannel.getMessageLength(MyChannel.java:27)
+	at org.jpos.iso.BaseChannel.receive(BaseChannel.java:699)
+	at org.jpos.q2.iso.ChannelAdaptor$Receiver.run(ChannelAdaptor.java:317)
+	at java.lang.Thread.run(Unknown Source)
+    </exception>
+  </warn>
+</log>
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="Mon Nov 21 13:39:33.626 SGT 2016" lifespan="521ms">
+  <info>
+    Q2 started, deployDir=E:\Andara Code Repositories\jPosClient\deploy
+    
+    jPOS 2.0.0 master/be6e219 (2015-02-25 22:04:06 UYST) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </info>
+</log>
+<log realm="Q2.system" at="Mon Nov 21 13:39:33.639 SGT 2016" lifespan="7ms">
+  <info>
+    deploy: E:\Andara Code Repositories\jPosClient\deploy\10_client_channel.xml
+  </info>
+</log>
+<log realm="Q2.system" at="Mon Nov 21 13:39:33.647 SGT 2016" lifespan="6ms">
+  <info>
+    deploy: E:\Andara Code Repositories\jPosClient\deploy\20_client_mux.xml
+  </info>
+</log>
+<log realm="jpos-client-application" at="Mon Nov 21 13:39:33.652 SGT 2016">
+  <info>
+    initializing jpos-client Service...
+  </info>
+</log>
+<log realm="jpos-client-application" at="Mon Nov 21 13:39:33.653 SGT 2016">
+  <info>
+    jpos-client is ready!
+  </info>
+</log>
+<log realm="Q2.system" at="Mon Nov 21 13:39:33.654 SGT 2016" lifespan="6ms">
+  <info>
+    deploy: E:\Andara Code Repositories\jPosClient\deploy\30_client_channel_manager.xml
+  </info>
+</log>
+<log realm="Q2.system" at="Mon Nov 21 13:39:33.660 SGT 2016" lifespan="5ms">
+  <info>
+    deploy: E:\Andara Code Repositories\jPosClient\deploy\99_sysmon.xml
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="Mon Nov 21 13:39:33.678 SGT 2016">
+  <info>
+    Starting SystemMonitor
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="Mon Nov 21 13:39:33.679 SGT 2016">
+  <info>
+               OS: Windows 7
+             host: rudy-PC/192.168.2.150
+          version: 2.0.0 (be6e219)
+         instance: cabed2d4-d9a2-4e14-a3f4-7b516ba9845e
+           uptime: 00:00:00.885
+       processors: 4
+           drift : 0
+    memory(t/u/f): 119/16/102
+          threads: 7
+            Thread[Reference Handler,10,system]
+            Thread[Finalizer,8,system]
+            Thread[Signal Dispatcher,9,system]
+            Thread[Attach Listener,5,system]
+            Thread[main,5,main]
+            Thread[Q2-cabed2d4-d9a2-4e14-a3f4-7b516ba9845e,5,main]
+            Thread[pool-1-thread-1,5,main]
+            Thread[Timer-0,5,main]
+            Thread[channel-sender-jpos-client-send,5,main]
+            Thread[channel-receiver-jpos-client-receive,5,main]
+            Thread[SystemMonitor,5,main]
+         encoding: windows-1252
+    name-registrar:
+      tspace:default: org.jpos.space.TSpace
+        <keycount>-1</keycount>
+        <gcinfo>0,0</gcinfo>
+
+      jpos-client-adaptor: org.jpos.q2.iso.ChannelAdaptor
+        tx=0, rx=0, connects=0, last=0
+      logger.Q2: org.jpos.util.Logger
+      channel.jpos-client-adaptor: com.jpos.client.main.iso.MyChannel
+      mux.jpos-client-mux: org.jpos.q2.iso.QMUX
+        tx=0, rx=0, tx_expired=0, tx_pending=0, rx_expired=0, rx_pending=0, rx_unhandled=0, rx_forwarded=0, connected=true, last=0
+      logger.Q2.buffered: org.jpos.util.BufferedLogListener
+      jpos-client-manager: com.jpos.client.main.iso.ChannelManager
+  </info>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 13:39:33.689 SGT 2016" lifespan="11ms">
+  <connect>
+    127.0.0.1:13337
+  </connect>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 13:39:35.976 SGT 2016" lifespan="7ms">
+  <send>
+    <isomsg direction="outgoing">
+      <!-- org.jpos.iso.packager.ISO87APackager -->
+      <field id="0" value="0800"/>
+      <field id="7" value="1121013935"/>
+      <field id="11" value="000223"/>
+      <field id="70" value="301"/>
+    </isomsg>
+  </send>
+</log>
+<log realm="jpos-client-application" at="Mon Nov 21 13:40:05.969 SGT 2016">
+  <info>
+    Response time (ms):30000
+  </info>
+</log>
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="Mon Nov 21 13:40:49.160 SGT 2016" lifespan="501ms">
+  <info>
+    Q2 started, deployDir=E:\Andara Code Repositories\jPosClient\deploy
+    
+    jPOS 2.0.0 master/be6e219 (2015-02-25 22:04:06 UYST) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </info>
+</log>
+<log realm="Q2.system" at="Mon Nov 21 13:40:49.171 SGT 2016" lifespan="6ms">
+  <info>
+    deploy: E:\Andara Code Repositories\jPosClient\deploy\10_client_channel.xml
+  </info>
+</log>
+<log realm="Q2.system" at="Mon Nov 21 13:40:49.177 SGT 2016" lifespan="5ms">
+  <info>
+    deploy: E:\Andara Code Repositories\jPosClient\deploy\20_client_mux.xml
+  </info>
+</log>
+<log realm="jpos-client-application" at="Mon Nov 21 13:40:49.182 SGT 2016">
+  <info>
+    initializing jpos-client Service...
+  </info>
+</log>
+<log realm="jpos-client-application" at="Mon Nov 21 13:40:49.183 SGT 2016">
+  <info>
+    jpos-client is ready!
+  </info>
+</log>
+<log realm="Q2.system" at="Mon Nov 21 13:40:49.183 SGT 2016" lifespan="5ms">
+  <info>
+    deploy: E:\Andara Code Repositories\jPosClient\deploy\30_client_channel_manager.xml
+  </info>
+</log>
+<log realm="Q2.system" at="Mon Nov 21 13:40:49.188 SGT 2016" lifespan="4ms">
+  <info>
+    deploy: E:\Andara Code Repositories\jPosClient\deploy\99_sysmon.xml
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="Mon Nov 21 13:40:49.205 SGT 2016">
+  <info>
+    Starting SystemMonitor
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="Mon Nov 21 13:40:49.207 SGT 2016">
+  <info>
+               OS: Windows 7
+             host: rudy-PC/192.168.2.150
+          version: 2.0.0 (be6e219)
+         instance: d9568a6c-279c-4638-ab69-4696b2ac3588
+           uptime: 00:00:00.880
+       processors: 4
+           drift : 0
+    memory(t/u/f): 119/16/102
+          threads: 7
+            Thread[Reference Handler,10,system]
+            Thread[Finalizer,8,system]
+            Thread[Signal Dispatcher,9,system]
+            Thread[Attach Listener,5,system]
+            Thread[main,5,main]
+            Thread[Q2-d9568a6c-279c-4638-ab69-4696b2ac3588,5,main]
+            Thread[pool-1-thread-1,5,main]
+            Thread[Timer-0,5,main]
+            Thread[channel-sender-jpos-client-send,5,main]
+            Thread[channel-receiver-jpos-client-receive,5,main]
+            Thread[SystemMonitor,5,main]
+         encoding: windows-1252
+    name-registrar:
+      tspace:default: org.jpos.space.TSpace
+        <keycount>-1</keycount>
+        <gcinfo>0,0</gcinfo>
+
+      jpos-client-adaptor: org.jpos.q2.iso.ChannelAdaptor
+        tx=0, rx=0, connects=0, last=0
+      logger.Q2: org.jpos.util.Logger
+      channel.jpos-client-adaptor: com.jpos.client.main.iso.MyChannel
+      mux.jpos-client-mux: org.jpos.q2.iso.QMUX
+        tx=0, rx=0, tx_expired=0, tx_pending=0, rx_expired=0, rx_pending=0, rx_unhandled=0, rx_forwarded=0, connected=true, last=0
+      logger.Q2.buffered: org.jpos.util.BufferedLogListener
+      jpos-client-manager: com.jpos.client.main.iso.ChannelManager
+  </info>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 13:40:49.217 SGT 2016" lifespan="12ms">
+  <connect>
+    127.0.0.1:13337
+  </connect>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 13:40:51.510 SGT 2016" lifespan="2ms">
+  <send>
+    <isomsg direction="outgoing">
+      <!-- org.jpos.iso.packager.ISO87APackager -->
+      <field id="0" value="0800"/>
+      <field id="7" value="1121014051"/>
+      <field id="11" value="000217"/>
+      <field id="70" value="301"/>
+    </isomsg>
+  </send>
+</log>
+<log realm="jpos-client-application" at="Mon Nov 21 13:41:21.507 SGT 2016">
+  <info>
+    Response time (ms):30000
+  </info>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 13:45:49.204 SGT 2016" lifespan="299985ms">
+  <receive>
+    <io-timeout/>
+  </receive>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="Mon Nov 21 13:45:49.208 SGT 2016">
+  <warn>
+    channel-receiver-jpos-client-receive
+    Read timeout
+  </warn>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 13:45:59.213 SGT 2016" lifespan="1ms">
+  <connect>
+    127.0.0.1:13337
+  </connect>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 13:50:59.198 SGT 2016" lifespan="299983ms">
+  <receive>
+    <io-timeout/>
+  </receive>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="Mon Nov 21 13:50:59.201 SGT 2016">
+  <warn>
+    channel-receiver-jpos-client-receive
+    Read timeout
+  </warn>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 13:51:09.207 SGT 2016" lifespan="1ms">
+  <connect>
+    127.0.0.1:13337
+  </connect>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 13:56:09.195 SGT 2016" lifespan="299983ms">
+  <receive>
+    <io-timeout/>
+  </receive>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="Mon Nov 21 13:56:09.196 SGT 2016">
+  <warn>
+    channel-receiver-jpos-client-receive
+    Read timeout
+  </warn>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 13:56:20.222 SGT 2016" lifespan="1000ms">
+  <connect>
+    127.0.0.1:13337
+      Connection refused: connect
+    Unable to connect
+  </connect>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="Mon Nov 21 13:56:20.223 SGT 2016">
+  <warn>
+    check-connection
+    Unable to connect
+  </warn>
+</log>
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="Mon Nov 21 14:01:15.347 SGT 2016" lifespan="584ms">
+  <info>
+    Q2 started, deployDir=E:\Andara Code Repositories\jPosClient\deploy
+    
+    jPOS 2.0.0 master/be6e219 (2015-02-25 22:04:06 UYST) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </info>
+</log>
+<log realm="Q2.system" at="Mon Nov 21 14:01:15.360 SGT 2016" lifespan="8ms">
+  <info>
+    deploy: E:\Andara Code Repositories\jPosClient\deploy\10_client_channel.xml
+  </info>
+</log>
+<log realm="Q2.system" at="Mon Nov 21 14:01:15.368 SGT 2016" lifespan="7ms">
+  <info>
+    deploy: E:\Andara Code Repositories\jPosClient\deploy\20_client_mux.xml
+  </info>
+</log>
+<log realm="jpos-client-application" at="Mon Nov 21 14:01:15.374 SGT 2016">
+  <info>
+    initializing jpos-client Service...
+  </info>
+</log>
+<log realm="jpos-client-application" at="Mon Nov 21 14:01:15.375 SGT 2016">
+  <info>
+    jpos-client is ready!
+  </info>
+</log>
+<log realm="Q2.system" at="Mon Nov 21 14:01:15.376 SGT 2016" lifespan="7ms">
+  <info>
+    deploy: E:\Andara Code Repositories\jPosClient\deploy\30_client_channel_manager.xml
+  </info>
+</log>
+<log realm="Q2.system" at="Mon Nov 21 14:01:15.381 SGT 2016" lifespan="4ms">
+  <info>
+    deploy: E:\Andara Code Repositories\jPosClient\deploy\99_sysmon.xml
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="Mon Nov 21 14:01:15.399 SGT 2016">
+  <info>
+    Starting SystemMonitor
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="Mon Nov 21 14:01:15.400 SGT 2016">
+  <info>
+               OS: Windows 7
+             host: rudy-PC/192.168.2.150
+          version: 2.0.0 (be6e219)
+         instance: 597c4207-9b44-4582-bec1-d5a1179d1222
+           uptime: 00:00:00.966
+       processors: 4
+           drift : 0
+    memory(t/u/f): 119/16/102
+          threads: 7
+            Thread[Reference Handler,10,system]
+            Thread[Finalizer,8,system]
+            Thread[Signal Dispatcher,9,system]
+            Thread[Attach Listener,5,system]
+            Thread[main,5,main]
+            Thread[Q2-597c4207-9b44-4582-bec1-d5a1179d1222,5,main]
+            Thread[pool-1-thread-1,5,main]
+            Thread[Timer-0,5,main]
+            Thread[channel-sender-jpos-client-send,5,main]
+            Thread[channel-receiver-jpos-client-receive,5,main]
+            Thread[SystemMonitor,5,main]
+         encoding: windows-1252
+    name-registrar:
+      tspace:default: org.jpos.space.TSpace
+        <keycount>-1</keycount>
+        <gcinfo>0,0</gcinfo>
+
+      jpos-client-adaptor: org.jpos.q2.iso.ChannelAdaptor
+        tx=0, rx=0, connects=0, last=0
+      logger.Q2: org.jpos.util.Logger
+      channel.jpos-client-adaptor: com.jpos.client.main.iso.MyChannel
+      mux.jpos-client-mux: org.jpos.q2.iso.QMUX
+        tx=0, rx=0, tx_expired=0, tx_pending=0, rx_expired=0, rx_pending=0, rx_unhandled=0, rx_forwarded=0, connected=true, last=0
+      logger.Q2.buffered: org.jpos.util.BufferedLogListener
+      jpos-client-manager: com.jpos.client.main.iso.ChannelManager
+  </info>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 14:01:15.412 SGT 2016" lifespan="14ms">
+  <connect>
+    127.0.0.1:13337
+  </connect>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 14:01:17.614 SGT 2016" lifespan="7ms">
+  <send>
+    <isomsg direction="outgoing">
+      <!-- org.jpos.iso.packager.ISO87APackager -->
+      <field id="0" value="0800"/>
+      <field id="7" value="1121020117"/>
+      <field id="11" value="000273"/>
+      <field id="70" value="301"/>
+    </isomsg>
+  </send>
+</log>
+<log realm="jpos-client-application" at="Mon Nov 21 14:01:47.606 SGT 2016">
+  <info>
+    Response time (ms):30000
+  </info>
+</log>
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="Mon Nov 21 14:02:34.018 SGT 2016" lifespan="508ms">
+  <info>
+    Q2 started, deployDir=E:\Andara Code Repositories\jPosClient\deploy
+    
+    jPOS 2.0.0 master/be6e219 (2015-02-25 22:04:06 UYST) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </info>
+</log>
+<log realm="Q2.system" at="Mon Nov 21 14:02:34.030 SGT 2016" lifespan="6ms">
+  <info>
+    deploy: E:\Andara Code Repositories\jPosClient\deploy\10_client_channel.xml
+  </info>
+</log>
+<log realm="Q2.system" at="Mon Nov 21 14:02:34.036 SGT 2016" lifespan="5ms">
+  <info>
+    deploy: E:\Andara Code Repositories\jPosClient\deploy\20_client_mux.xml
+  </info>
+</log>
+<log realm="jpos-client-application" at="Mon Nov 21 14:02:34.042 SGT 2016">
+  <info>
+    initializing jpos-client Service...
+  </info>
+</log>
+<log realm="jpos-client-application" at="Mon Nov 21 14:02:34.043 SGT 2016">
+  <info>
+    jpos-client is ready!
+  </info>
+</log>
+<log realm="Q2.system" at="Mon Nov 21 14:02:34.044 SGT 2016" lifespan="7ms">
+  <info>
+    deploy: E:\Andara Code Repositories\jPosClient\deploy\30_client_channel_manager.xml
+  </info>
+</log>
+<log realm="Q2.system" at="Mon Nov 21 14:02:34.050 SGT 2016" lifespan="6ms">
+  <info>
+    deploy: E:\Andara Code Repositories\jPosClient\deploy\99_sysmon.xml
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="Mon Nov 21 14:02:34.067 SGT 2016">
+  <info>
+    Starting SystemMonitor
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="Mon Nov 21 14:02:34.068 SGT 2016">
+  <info>
+               OS: Windows 7
+             host: rudy-PC/192.168.2.150
+          version: 2.0.0 (be6e219)
+         instance: d3479ba3-410d-451f-b3a5-e73637acf824
+           uptime: 00:00:00.891
+       processors: 4
+           drift : 0
+    memory(t/u/f): 119/16/102
+          threads: 7
+            Thread[Reference Handler,10,system]
+            Thread[Finalizer,8,system]
+            Thread[Signal Dispatcher,9,system]
+            Thread[Attach Listener,5,system]
+            Thread[main,5,main]
+            Thread[Q2-d3479ba3-410d-451f-b3a5-e73637acf824,5,main]
+            Thread[pool-1-thread-1,5,main]
+            Thread[Timer-0,5,main]
+            Thread[channel-sender-jpos-client-send,5,main]
+            Thread[channel-receiver-jpos-client-receive,5,main]
+            Thread[SystemMonitor,5,main]
+         encoding: windows-1252
+    name-registrar:
+      tspace:default: org.jpos.space.TSpace
+        <keycount>-1</keycount>
+        <gcinfo>0,0</gcinfo>
+
+      jpos-client-adaptor: org.jpos.q2.iso.ChannelAdaptor
+        tx=0, rx=0, connects=0, last=0
+      logger.Q2: org.jpos.util.Logger
+      channel.jpos-client-adaptor: org.jpos.iso.channel.ASCIIChannel
+      mux.jpos-client-mux: org.jpos.q2.iso.QMUX
+        tx=0, rx=0, tx_expired=0, tx_pending=0, rx_expired=0, rx_pending=0, rx_unhandled=0, rx_forwarded=0, connected=true, last=0
+      logger.Q2.buffered: org.jpos.util.BufferedLogListener
+      jpos-client-manager: com.jpos.client.main.iso.ChannelManager
+  </info>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 14:02:34.080 SGT 2016" lifespan="13ms">
+  <connect>
+    127.0.0.1:13337
+  </connect>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 14:02:36.339 SGT 2016" lifespan="1ms">
+  <send>
+    <isomsg direction="outgoing">
+      <!-- org.jpos.iso.packager.ISO87APackager -->
+      <field id="0" value="0800"/>
+      <field id="7" value="1121020236"/>
+      <field id="11" value="000054"/>
+      <field id="70" value="301"/>
+    </isomsg>
+  </send>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 14:02:36.347 SGT 2016" lifespan="2263ms">
+  <receive>
+    <isomsg direction="incoming">
+      <!-- org.jpos.iso.packager.ISO87APackager -->
+      <field id="0" value="0810"/>
+      <field id="7" value="1121020236"/>
+      <field id="11" value="000054"/>
+      <field id="39" value="00"/>
+      <field id="70" value="301"/>
+    </isomsg>
+  </receive>
+</log>
+<log realm="jpos-client-application" at="Mon Nov 21 14:02:36.350 SGT 2016">
+  <info>
+    Response time (ms):12
+  </info>
+</log>
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="Mon Nov 21 14:18:41.580 SGT 2016" lifespan="521ms">
+  <info>
+    Q2 started, deployDir=E:\Andara Code Repositories\jPosClient\deploy
+    
+    jPOS 2.0.0 master/be6e219 (2015-02-25 22:04:06 UYST) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </info>
+</log>
+<log realm="Q2.system" at="Mon Nov 21 14:18:41.592 SGT 2016" lifespan="6ms">
+  <info>
+    deploy: E:\Andara Code Repositories\jPosClient\deploy\10_client_channel.xml
+  </info>
+</log>
+<log realm="Q2.system" at="Mon Nov 21 14:18:41.599 SGT 2016" lifespan="6ms">
+  <info>
+    deploy: E:\Andara Code Repositories\jPosClient\deploy\20_client_mux.xml
+  </info>
+</log>
+<log realm="jpos-client-application" at="Mon Nov 21 14:18:41.604 SGT 2016">
+  <info>
+    initializing jpos-client Service...
+  </info>
+</log>
+<log realm="jpos-client-application" at="Mon Nov 21 14:18:41.605 SGT 2016">
+  <info>
+    jpos-client is ready!
+  </info>
+</log>
+<log realm="Q2.system" at="Mon Nov 21 14:18:41.606 SGT 2016" lifespan="6ms">
+  <info>
+    deploy: E:\Andara Code Repositories\jPosClient\deploy\30_client_channel_manager.xml
+  </info>
+</log>
+<log realm="Q2.system" at="Mon Nov 21 14:18:41.611 SGT 2016" lifespan="4ms">
+  <info>
+    deploy: E:\Andara Code Repositories\jPosClient\deploy\99_sysmon.xml
+  </info>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="Mon Nov 21 14:18:41.613 SGT 2016">
+  <warn>
+    error starting service
+    <iso-exception>
+      com.jpos.server.main.iso.SYBChannel
+      <nested-exception>
+      javax.management.ReflectionException: The MBean class could not be loaded
+	at com.sun.jmx.mbeanserver.MBeanInstantiator.loadClass(Unknown Source)
+	at com.sun.jmx.mbeanserver.MBeanInstantiator.findClass(Unknown Source)
+	at com.sun.jmx.mbeanserver.MBeanInstantiator.findClass(Unknown Source)
+	at com.sun.jmx.mbeanserver.MBeanInstantiator.instantiate(Unknown Source)
+	at com.sun.jmx.mbeanserver.MBeanInstantiator.instantiate(Unknown Source)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.instantiate(Unknown Source)
+	at org.jpos.q2.QFactory.newInstance(QFactory.java:322)
+	at org.jpos.q2.iso.ChannelAdaptor.newChannel(ChannelAdaptor.java:193)
+	at org.jpos.q2.iso.ChannelAdaptor.initChannel(ChannelAdaptor.java:240)
+	at org.jpos.q2.iso.ChannelAdaptor.startService(ChannelAdaptor.java:72)
+	at org.jpos.q2.QBeanSupport.start(QBeanSupport.java:115)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sun.reflect.misc.Trampoline.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sun.reflect.misc.MethodUtil.invoke(Unknown Source)
+	at com.sun.jmx.mbeanserver.StandardMBeanIntrospector.invokeM2(Unknown Source)
+	at com.sun.jmx.mbeanserver.StandardMBeanIntrospector.invokeM2(Unknown Source)
+	at com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(Unknown Source)
+	at com.sun.jmx.mbeanserver.PerInterface.invoke(Unknown Source)
+	at com.sun.jmx.mbeanserver.MBeanSupport.invoke(Unknown Source)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(Unknown Source)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(Unknown Source)
+	at org.jpos.q2.QFactory.startQBean(QFactory.java:188)
+	at org.jpos.q2.Q2.start(Q2.java:525)
+	at org.jpos.q2.Q2.deploy(Q2.java:311)
+	at org.jpos.q2.Q2.run(Q2.java:186)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.ClassNotFoundException: com.jpos.server.main.iso.SYBChannel
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	... 32 more
+      </nested-exception>
+      org.jpos.core.ConfigurationException: com.jpos.server.main.iso.SYBChannel (javax.management.ReflectionException: The MBean class could not be loaded)
+	at org.jpos.q2.QFactory.newInstance(QFactory.java:324)
+	at org.jpos.q2.iso.ChannelAdaptor.newChannel(ChannelAdaptor.java:193)
+	at org.jpos.q2.iso.ChannelAdaptor.initChannel(ChannelAdaptor.java:240)
+	at org.jpos.q2.iso.ChannelAdaptor.startService(ChannelAdaptor.java:72)
+	at org.jpos.q2.QBeanSupport.start(QBeanSupport.java:115)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sun.reflect.misc.Trampoline.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sun.reflect.misc.MethodUtil.invoke(Unknown Source)
+	at com.sun.jmx.mbeanserver.StandardMBeanIntrospector.invokeM2(Unknown Source)
+	at com.sun.jmx.mbeanserver.StandardMBeanIntrospector.invokeM2(Unknown Source)
+	at com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(Unknown Source)
+	at com.sun.jmx.mbeanserver.PerInterface.invoke(Unknown Source)
+	at com.sun.jmx.mbeanserver.MBeanSupport.invoke(Unknown Source)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(Unknown Source)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(Unknown Source)
+	at org.jpos.q2.QFactory.startQBean(QFactory.java:188)
+	at org.jpos.q2.Q2.start(Q2.java:525)
+	at org.jpos.q2.Q2.deploy(Q2.java:311)
+	at org.jpos.q2.Q2.run(Q2.java:186)
+	at java.lang.Thread.run(Unknown Source)
+Nested:javax.management.ReflectionException: The MBean class could not be loaded
+	at com.sun.jmx.mbeanserver.MBeanInstantiator.loadClass(Unknown Source)
+	at com.sun.jmx.mbeanserver.MBeanInstantiator.findClass(Unknown Source)
+	at com.sun.jmx.mbeanserver.MBeanInstantiator.findClass(Unknown Source)
+	at com.sun.jmx.mbeanserver.MBeanInstantiator.instantiate(Unknown Source)
+	at com.sun.jmx.mbeanserver.MBeanInstantiator.instantiate(Unknown Source)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.instantiate(Unknown Source)
+	at org.jpos.q2.QFactory.newInstance(QFactory.java:322)
+	at org.jpos.q2.iso.ChannelAdaptor.newChannel(ChannelAdaptor.java:193)
+	at org.jpos.q2.iso.ChannelAdaptor.initChannel(ChannelAdaptor.java:240)
+	at org.jpos.q2.iso.ChannelAdaptor.startService(ChannelAdaptor.java:72)
+	at org.jpos.q2.QBeanSupport.start(QBeanSupport.java:115)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sun.reflect.misc.Trampoline.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sun.reflect.misc.MethodUtil.invoke(Unknown Source)
+	at com.sun.jmx.mbeanserver.StandardMBeanIntrospector.invokeM2(Unknown Source)
+	at com.sun.jmx.mbeanserver.StandardMBeanIntrospector.invokeM2(Unknown Source)
+	at com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(Unknown Source)
+	at com.sun.jmx.mbeanserver.PerInterface.invoke(Unknown Source)
+	at com.sun.jmx.mbeanserver.MBeanSupport.invoke(Unknown Source)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(Unknown Source)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(Unknown Source)
+	at org.jpos.q2.QFactory.startQBean(QFactory.java:188)
+	at org.jpos.q2.Q2.start(Q2.java:525)
+	at org.jpos.q2.Q2.deploy(Q2.java:311)
+	at org.jpos.q2.Q2.run(Q2.java:186)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.ClassNotFoundException: com.jpos.server.main.iso.SYBChannel
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	... 32 more
+    </iso-exception>
+  </warn>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="Mon Nov 21 14:18:41.624 SGT 2016">
+  <info>
+    Starting SystemMonitor
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="Mon Nov 21 14:18:41.625 SGT 2016">
+  <info>
+               OS: Windows 7
+             host: rudy-PC/192.168.2.150
+          version: 2.0.0 (be6e219)
+         instance: 09adcb76-33fb-4967-be0b-5945579d9c80
+           uptime: 00:00:00.894
+       processors: 4
+           drift : 0
+    memory(t/u/f): 119/15/103
+          threads: 5
+            Thread[Reference Handler,10,system]
+            Thread[Finalizer,8,system]
+            Thread[Signal Dispatcher,9,system]
+            Thread[Attach Listener,5,system]
+            Thread[main,5,main]
+            Thread[Q2-09adcb76-33fb-4967-be0b-5945579d9c80,5,main]
+            Thread[pool-1-thread-1,5,main]
+            Thread[Timer-0,5,main]
+            Thread[SystemMonitor,5,main]
+         encoding: windows-1252
+    name-registrar:
+      tspace:default: org.jpos.space.TSpace
+        <keycount>-1</keycount>
+        <gcinfo>0,0</gcinfo>
+
+      jpos-client-adaptor: org.jpos.q2.iso.ChannelAdaptor
+        tx=0, rx=0, connects=0, last=0
+      logger.Q2: org.jpos.util.Logger
+      mux.jpos-client-mux: org.jpos.q2.iso.QMUX
+        tx=0, rx=0, tx_expired=0, tx_pending=0, rx_expired=0, rx_pending=0, rx_unhandled=0, rx_forwarded=0, connected=true, last=0
+      logger.Q2.buffered: org.jpos.util.BufferedLogListener
+      jpos-client-manager: com.jpos.client.main.iso.ChannelManager
+  </info>
+</log>
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="Mon Nov 21 14:19:47.425 SGT 2016" lifespan="513ms">
+  <info>
+    Q2 started, deployDir=E:\Andara Code Repositories\jPosClient\deploy
+    
+    jPOS 2.0.0 master/be6e219 (2015-02-25 22:04:06 UYST) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </info>
+</log>
+<log realm="Q2.system" at="Mon Nov 21 14:19:47.437 SGT 2016" lifespan="6ms">
+  <info>
+    deploy: E:\Andara Code Repositories\jPosClient\deploy\10_client_channel.xml
+  </info>
+</log>
+<log realm="Q2.system" at="Mon Nov 21 14:19:47.444 SGT 2016" lifespan="5ms">
+  <info>
+    deploy: E:\Andara Code Repositories\jPosClient\deploy\20_client_mux.xml
+  </info>
+</log>
+<log realm="jpos-client-application" at="Mon Nov 21 14:19:47.449 SGT 2016">
+  <info>
+    initializing jpos-client Service...
+  </info>
+</log>
+<log realm="jpos-client-application" at="Mon Nov 21 14:19:47.450 SGT 2016">
+  <info>
+    jpos-client is ready!
+  </info>
+</log>
+<log realm="Q2.system" at="Mon Nov 21 14:19:47.450 SGT 2016" lifespan="5ms">
+  <info>
+    deploy: E:\Andara Code Repositories\jPosClient\deploy\30_client_channel_manager.xml
+  </info>
+</log>
+<log realm="Q2.system" at="Mon Nov 21 14:19:47.456 SGT 2016" lifespan="5ms">
+  <info>
+    deploy: E:\Andara Code Repositories\jPosClient\deploy\99_sysmon.xml
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="Mon Nov 21 14:19:47.473 SGT 2016">
+  <info>
+    Starting SystemMonitor
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="Mon Nov 21 14:19:47.474 SGT 2016">
+  <info>
+               OS: Windows 7
+             host: rudy-PC/192.168.2.150
+          version: 2.0.0 (be6e219)
+         instance: 2a8c3034-9ed5-4014-835f-57d610adf61c
+           uptime: 00:00:00.882
+       processors: 4
+           drift : 0
+    memory(t/u/f): 119/16/102
+          threads: 7
+            Thread[Reference Handler,10,system]
+            Thread[Finalizer,8,system]
+            Thread[Signal Dispatcher,9,system]
+            Thread[Attach Listener,5,system]
+            Thread[main,5,main]
+            Thread[Q2-2a8c3034-9ed5-4014-835f-57d610adf61c,5,main]
+            Thread[pool-1-thread-1,5,main]
+            Thread[Timer-0,5,main]
+            Thread[channel-sender-jpos-client-send,5,main]
+            Thread[channel-receiver-jpos-client-receive,5,main]
+            Thread[SystemMonitor,5,main]
+         encoding: windows-1252
+    name-registrar:
+      tspace:default: org.jpos.space.TSpace
+        <keycount>-1</keycount>
+        <gcinfo>0,0</gcinfo>
+
+      jpos-client-adaptor: org.jpos.q2.iso.ChannelAdaptor
+        tx=0, rx=0, connects=0, last=0
+      logger.Q2: org.jpos.util.Logger
+      channel.jpos-client-adaptor: com.jpos.client.main.iso.SYBChannel
+      mux.jpos-client-mux: org.jpos.q2.iso.QMUX
+        tx=0, rx=0, tx_expired=0, tx_pending=0, rx_expired=0, rx_pending=0, rx_unhandled=0, rx_forwarded=0, connected=true, last=0
+      logger.Q2.buffered: org.jpos.util.BufferedLogListener
+      jpos-client-manager: com.jpos.client.main.iso.ChannelManager
+  </info>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 14:19:47.486 SGT 2016" lifespan="13ms">
+  <connect>
+    127.0.0.1:13337
+  </connect>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 14:19:49.760 SGT 2016" lifespan="1ms">
+  <send>
+    <isomsg direction="outgoing">
+      <!-- org.jpos.iso.packager.ISO87APackager -->
+      <field id="0" value="0800"/>
+      <field id="7" value="1121021949"/>
+      <field id="11" value="000132"/>
+      <field id="70" value="301"/>
+    </isomsg>
+  </send>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 14:19:49.776 SGT 2016" lifespan="2288ms">
+  <receive>
+    <isomsg direction="incoming">
+      <!-- org.jpos.iso.packager.ISO87APackager -->
+      <field id="0" value="0810"/>
+      <field id="7" value="1121021949"/>
+      <field id="11" value="000132"/>
+      <field id="39" value="00"/>
+      <field id="70" value="301"/>
+    </isomsg>
+  </receive>
+</log>
+<log realm="jpos-client-application" at="Mon Nov 21 14:19:49.778 SGT 2016">
+  <info>
+    Response time (ms):20
+  </info>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 14:24:49.765 SGT 2016" lifespan="2ms">
+  <connect>
+    127.0.0.1:13337
+  </connect>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 14:24:49.773 SGT 2016" lifespan="299995ms">
+  <receive>
+    <peer-disconnect/>
+  </receive>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="Mon Nov 21 14:24:49.774 SGT 2016">
+  <warn>
+    channel-receiver-jpos-client-receive
+    <exception name="null">
+    java.io.EOFException
+	at java.io.DataInputStream.readFully(Unknown Source)
+	at com.jpos.client.main.iso.SYBChannel.getMessageLength(SYBChannel.java:20)
+	at org.jpos.iso.BaseChannel.receive(BaseChannel.java:699)
+	at org.jpos.q2.iso.ChannelAdaptor$Receiver.run(ChannelAdaptor.java:317)
+	at java.lang.Thread.run(Unknown Source)
+    </exception>
+  </warn>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 14:24:59.779 SGT 2016">
+  <connect>
+    127.0.0.1:13337
+  </connect>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 14:29:59.769 SGT 2016" lifespan="299986ms">
+  <receive>
+    <peer-disconnect/>
+  </receive>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="Mon Nov 21 14:29:59.771 SGT 2016">
+  <warn>
+    channel-receiver-jpos-client-receive
+    <exception name="null">
+    java.io.EOFException
+	at java.io.DataInputStream.readFully(Unknown Source)
+	at com.jpos.client.main.iso.SYBChannel.getMessageLength(SYBChannel.java:20)
+	at org.jpos.iso.BaseChannel.receive(BaseChannel.java:699)
+	at org.jpos.q2.iso.ChannelAdaptor$Receiver.run(ChannelAdaptor.java:317)
+	at java.lang.Thread.run(Unknown Source)
+    </exception>
+  </warn>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 14:30:10.774 SGT 2016" lifespan="1ms">
+  <connect>
+    127.0.0.1:13337
+  </connect>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 14:35:10.760 SGT 2016" lifespan="299984ms">
+  <receive>
+    <io-timeout/>
+  </receive>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="Mon Nov 21 14:35:10.761 SGT 2016">
+  <warn>
+    channel-receiver-jpos-client-receive
+    Read timeout
+  </warn>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 14:35:20.765 SGT 2016" lifespan="1ms">
+  <connect>
+    127.0.0.1:13337
+  </connect>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 14:40:20.750 SGT 2016" lifespan="299983ms">
+  <receive>
+    <io-timeout/>
+  </receive>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="Mon Nov 21 14:40:20.752 SGT 2016">
+  <warn>
+    channel-receiver-jpos-client-receive
+    Read timeout
+  </warn>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 14:40:30.758 SGT 2016" lifespan="1ms">
+  <connect>
+    127.0.0.1:13337
+  </connect>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 14:45:30.745 SGT 2016" lifespan="299983ms">
+  <receive>
+    <io-timeout/>
+  </receive>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="Mon Nov 21 14:45:30.753 SGT 2016">
+  <warn>
+    channel-receiver-jpos-client-receive
+    Read timeout
+  </warn>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 14:45:40.792 SGT 2016" lifespan="1ms">
+  <connect>
+    127.0.0.1:13337
+  </connect>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 14:50:40.826 SGT 2016" lifespan="300031ms">
+  <receive>
+    <io-timeout/>
+  </receive>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="Mon Nov 21 14:50:40.828 SGT 2016">
+  <warn>
+    channel-receiver-jpos-client-receive
+    Read timeout
+  </warn>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 14:50:50.851 SGT 2016" lifespan="1ms">
+  <connect>
+    127.0.0.1:13337
+  </connect>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 14:55:50.891 SGT 2016" lifespan="300039ms">
+  <receive>
+    <io-timeout/>
+  </receive>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="Mon Nov 21 14:55:50.892 SGT 2016">
+  <warn>
+    channel-receiver-jpos-client-receive
+    Read timeout
+  </warn>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 14:56:00.897 SGT 2016" lifespan="1ms">
+  <connect>
+    127.0.0.1:13337
+  </connect>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 15:00:39.247 SGT 2016" lifespan="278349ms">
+  <receive>
+    <peer-disconnect>Connection reset</peer-disconnect>
+  </receive>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="Mon Nov 21 15:00:39.247 SGT 2016">
+  <warn>
+    channel-receiver-jpos-client-receive
+    <exception name="Connection reset">
+    java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.io.BufferedInputStream.fill(Unknown Source)
+	at java.io.BufferedInputStream.read1(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at java.io.DataInputStream.readFully(Unknown Source)
+	at com.jpos.client.main.iso.SYBChannel.getMessageLength(SYBChannel.java:20)
+	at org.jpos.iso.BaseChannel.receive(BaseChannel.java:699)
+	at org.jpos.q2.iso.ChannelAdaptor$Receiver.run(ChannelAdaptor.java:317)
+	at java.lang.Thread.run(Unknown Source)
+    </exception>
+  </warn>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 15:00:50.260 SGT 2016" lifespan="1000ms">
+  <connect>
+    127.0.0.1:13337
+      Connection refused: connect
+    Unable to connect
+  </connect>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="Mon Nov 21 15:00:50.261 SGT 2016">
+  <warn>
+    check-connection
+    Unable to connect
+  </warn>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 15:01:01.263 SGT 2016" lifespan="1000ms">
+  <connect>
+    127.0.0.1:13337
+      Connection refused: connect
+    Unable to connect
+  </connect>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="Mon Nov 21 15:01:01.264 SGT 2016">
+  <warn>
+    check-connection
+    Unable to connect
+  </warn>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 15:01:12.266 SGT 2016" lifespan="1000ms">
+  <connect>
+    127.0.0.1:13337
+      Connection refused: connect
+    Unable to connect
+  </connect>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="Mon Nov 21 15:01:12.267 SGT 2016">
+  <warn>
+    check-connection
+    Unable to connect
+  </warn>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 15:01:23.266 SGT 2016" lifespan="997ms">
+  <connect>
+    127.0.0.1:13337
+      Connection refused: connect
+    Unable to connect
+  </connect>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="Mon Nov 21 15:01:23.267 SGT 2016">
+  <warn>
+    check-connection
+    Unable to connect
+  </warn>
+</log>
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="Mon Nov 21 15:05:32.873 SGT 2016" lifespan="521ms">
+  <info>
+    Q2 started, deployDir=E:\Andara Code Repositories\jPosClient\deploy
+    
+    jPOS 2.0.0 master/be6e219 (2015-02-25 22:04:06 UYST) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </info>
+</log>
+<log realm="Q2.system" at="Mon Nov 21 15:05:32.887 SGT 2016" lifespan="7ms">
+  <info>
+    deploy: E:\Andara Code Repositories\jPosClient\deploy\10_client_channel.xml
+  </info>
+</log>
+<log realm="Q2.system" at="Mon Nov 21 15:05:32.894 SGT 2016" lifespan="6ms">
+  <info>
+    deploy: E:\Andara Code Repositories\jPosClient\deploy\20_client_mux.xml
+  </info>
+</log>
+<log realm="jpos-client-application" at="Mon Nov 21 15:05:32.899 SGT 2016">
+  <info>
+    initializing jpos-client Service...
+  </info>
+</log>
+<log realm="jpos-client-application" at="Mon Nov 21 15:05:32.900 SGT 2016">
+  <info>
+    jpos-client is ready!
+  </info>
+</log>
+<log realm="Q2.system" at="Mon Nov 21 15:05:32.901 SGT 2016" lifespan="6ms">
+  <info>
+    deploy: E:\Andara Code Repositories\jPosClient\deploy\30_client_channel_manager.xml
+  </info>
+</log>
+<log realm="Q2.system" at="Mon Nov 21 15:05:32.906 SGT 2016" lifespan="4ms">
+  <info>
+    deploy: E:\Andara Code Repositories\jPosClient\deploy\99_sysmon.xml
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="Mon Nov 21 15:05:32.924 SGT 2016">
+  <info>
+    Starting SystemMonitor
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="Mon Nov 21 15:05:32.925 SGT 2016">
+  <info>
+               OS: Windows 7
+             host: rudy-PC/192.168.2.150
+          version: 2.0.0 (be6e219)
+         instance: 6a6ab774-b82e-4f6e-a4c1-e50246696771
+           uptime: 00:00:00.940
+       processors: 4
+           drift : 0
+    memory(t/u/f): 119/15/103
+          threads: 7
+            Thread[Reference Handler,10,system]
+            Thread[Finalizer,8,system]
+            Thread[Signal Dispatcher,9,system]
+            Thread[Attach Listener,5,system]
+            Thread[main,5,main]
+            Thread[Q2-6a6ab774-b82e-4f6e-a4c1-e50246696771,5,main]
+            Thread[pool-1-thread-1,5,main]
+            Thread[Timer-0,5,main]
+            Thread[channel-sender-jpos-client-send,5,main]
+            Thread[channel-receiver-jpos-client-receive,5,main]
+            Thread[SystemMonitor,5,main]
+         encoding: windows-1252
+    name-registrar:
+      tspace:default: org.jpos.space.TSpace
+        <keycount>-1</keycount>
+        <gcinfo>0,0</gcinfo>
+
+      jpos-client-adaptor: org.jpos.q2.iso.ChannelAdaptor
+        tx=0, rx=0, connects=0, last=0
+      logger.Q2: org.jpos.util.Logger
+      channel.jpos-client-adaptor: com.jpos.client.main.iso.MyChannel
+      mux.jpos-client-mux: org.jpos.q2.iso.QMUX
+        tx=0, rx=0, tx_expired=0, tx_pending=0, rx_expired=0, rx_pending=0, rx_unhandled=0, rx_forwarded=0, connected=true, last=0
+      logger.Q2.buffered: org.jpos.util.BufferedLogListener
+      jpos-client-manager: com.jpos.client.main.iso.ChannelManager
+  </info>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 15:05:32.937 SGT 2016" lifespan="13ms">
+  <connect>
+    127.0.0.1:13337
+  </connect>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 15:05:35.174 SGT 2016" lifespan="2ms">
+  <send>
+    <isomsg direction="outgoing">
+      <!-- org.jpos.iso.packager.ISO87APackager -->
+      <field id="0" value="0800"/>
+      <field id="7" value="1121030535"/>
+      <field id="11" value="000227"/>
+      <field id="70" value="301"/>
+    </isomsg>
+  </send>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 15:05:35.188 SGT 2016" lifespan="2247ms">
+  <receive>
+    <isomsg direction="incoming">
+      <!-- org.jpos.iso.packager.ISO87APackager -->
+      <field id="0" value="0810"/>
+      <field id="7" value="1121030535"/>
+      <field id="11" value="000227"/>
+      <field id="39" value="00"/>
+      <field id="70" value="301"/>
+    </isomsg>
+  </receive>
+</log>
+<log realm="jpos-client-application" at="Mon Nov 21 15:05:35.191 SGT 2016">
+  <info>
+    Response time (ms):19
+  </info>
+</log>
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="Mon Nov 21 16:25:30.505 SGT 2016" lifespan="538ms">
+  <info>
+    Q2 started, deployDir=E:\Andara Code Repositories\jPosClient\deploy
+    
+    jPOS 2.0.0 master/be6e219 (2015-02-25 22:04:06 UYST) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </info>
+</log>
+<log realm="Q2.system" at="Mon Nov 21 16:25:30.518 SGT 2016" lifespan="7ms">
+  <info>
+    deploy: E:\Andara Code Repositories\jPosClient\deploy\10_client_channel.xml
+  </info>
+</log>
+<log realm="Q2.system" at="Mon Nov 21 16:25:30.525 SGT 2016" lifespan="6ms">
+  <info>
+    deploy: E:\Andara Code Repositories\jPosClient\deploy\20_client_mux.xml
+  </info>
+</log>
+<log realm="jpos-client-application" at="Mon Nov 21 16:25:30.536 SGT 2016">
+  <info>
+    initializing jpos-client Service...
+  </info>
+</log>
+<log realm="jpos-client-application" at="Mon Nov 21 16:25:30.541 SGT 2016">
+  <info>
+    jpos-client is ready!
+  </info>
+</log>
+<log realm="Q2.system" at="Mon Nov 21 16:25:30.542 SGT 2016" lifespan="16ms">
+  <info>
+    deploy: E:\Andara Code Repositories\jPosClient\deploy\30_client_channel_manager.xml
+  </info>
+</log>
+<log realm="Q2.system" at="Mon Nov 21 16:25:30.547 SGT 2016" lifespan="5ms">
+  <info>
+    deploy: E:\Andara Code Repositories\jPosClient\deploy\99_sysmon.xml
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="Mon Nov 21 16:25:30.565 SGT 2016">
+  <info>
+    Starting SystemMonitor
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="Mon Nov 21 16:25:30.566 SGT 2016">
+  <info>
+               OS: Windows 7
+             host: rudy-PC/192.168.2.150
+          version: 2.0.0 (be6e219)
+         instance: 28f23ce8-f850-4a68-a284-a1d71525cd4c
+           uptime: 00:00:00.954
+       processors: 4
+           drift : 0
+    memory(t/u/f): 119/16/102
+          threads: 7
+            Thread[Reference Handler,10,system]
+            Thread[Finalizer,8,system]
+            Thread[Signal Dispatcher,9,system]
+            Thread[Attach Listener,5,system]
+            Thread[main,5,main]
+            Thread[Q2-28f23ce8-f850-4a68-a284-a1d71525cd4c,5,main]
+            Thread[pool-1-thread-1,5,main]
+            Thread[Timer-0,5,main]
+            Thread[channel-sender-jpos-client-send,5,main]
+            Thread[channel-receiver-jpos-client-receive,5,main]
+            Thread[SystemMonitor,5,main]
+         encoding: windows-1252
+    name-registrar:
+      tspace:default: org.jpos.space.TSpace
+        <keycount>-1</keycount>
+        <gcinfo>0,0</gcinfo>
+
+      jpos-client-adaptor: org.jpos.q2.iso.ChannelAdaptor
+        tx=0, rx=0, connects=0, last=0
+      logger.Q2: org.jpos.util.Logger
+      channel.jpos-client-adaptor: com.jpos.client.main.iso.MyChannel
+      mux.jpos-client-mux: org.jpos.q2.iso.QMUX
+        tx=0, rx=0, tx_expired=0, tx_pending=0, rx_expired=0, rx_pending=0, rx_unhandled=0, rx_forwarded=0, connected=true, last=0
+      logger.Q2.buffered: org.jpos.util.BufferedLogListener
+      jpos-client-manager: com.jpos.client.main.iso.ChannelManager
+  </info>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 16:25:30.576 SGT 2016" lifespan="12ms">
+  <connect>
+    127.0.0.1:13337
+  </connect>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 16:25:32.787 SGT 2016" lifespan="2ms">
+  <send>
+    <isomsg direction="outgoing">
+      <!-- org.jpos.iso.packager.ISO87APackager -->
+      <field id="0" value="0800"/>
+      <field id="7" value="1121042532"/>
+      <field id="11" value="000190"/>
+      <field id="70" value="301"/>
+    </isomsg>
+  </send>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 16:25:32.797 SGT 2016" lifespan="2218ms">
+  <receive>
+    <peer-disconnect/>
+  </receive>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="Mon Nov 21 16:25:32.798 SGT 2016">
+  <warn>
+    channel-receiver-jpos-client-receive
+    <exception name="null">
+    java.io.EOFException
+	at java.io.DataInputStream.readFully(Unknown Source)
+	at com.jpos.client.main.iso.MyChannel.getMessageLength(MyChannel.java:28)
+	at org.jpos.iso.BaseChannel.receive(BaseChannel.java:699)
+	at org.jpos.q2.iso.ChannelAdaptor$Receiver.run(ChannelAdaptor.java:317)
+	at java.lang.Thread.run(Unknown Source)
+    </exception>
+  </warn>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 16:25:43.801 SGT 2016" lifespan="1ms">
+  <connect>
+    127.0.0.1:13337
+  </connect>
+</log>
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="Mon Nov 21 16:37:01.602 SGT 2016" lifespan="541ms">
+  <info>
+    Q2 started, deployDir=E:\Andara Code Repositories\jPosClient\deploy
+    
+    jPOS 2.0.0 master/be6e219 (2015-02-25 22:04:06 UYST) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </info>
+</log>
+<log realm="Q2.system" at="Mon Nov 21 16:37:01.614 SGT 2016" lifespan="6ms">
+  <info>
+    deploy: E:\Andara Code Repositories\jPosClient\deploy\10_client_channel.xml
+  </info>
+</log>
+<log realm="Q2.system" at="Mon Nov 21 16:37:01.621 SGT 2016" lifespan="6ms">
+  <info>
+    deploy: E:\Andara Code Repositories\jPosClient\deploy\20_client_mux.xml
+  </info>
+</log>
+<log realm="jpos-client-application" at="Mon Nov 21 16:37:01.626 SGT 2016">
+  <info>
+    initializing jpos-client Service...
+  </info>
+</log>
+<log realm="jpos-client-application" at="Mon Nov 21 16:37:01.627 SGT 2016">
+  <info>
+    jpos-client is ready!
+  </info>
+</log>
+<log realm="Q2.system" at="Mon Nov 21 16:37:01.628 SGT 2016" lifespan="6ms">
+  <info>
+    deploy: E:\Andara Code Repositories\jPosClient\deploy\30_client_channel_manager.xml
+  </info>
+</log>
+<log realm="Q2.system" at="Mon Nov 21 16:37:01.634 SGT 2016" lifespan="4ms">
+  <info>
+    deploy: E:\Andara Code Repositories\jPosClient\deploy\99_sysmon.xml
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="Mon Nov 21 16:37:01.651 SGT 2016">
+  <info>
+    Starting SystemMonitor
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="Mon Nov 21 16:37:01.652 SGT 2016">
+  <info>
+               OS: Windows 7
+             host: rudy-PC/192.168.2.150
+          version: 2.0.0 (be6e219)
+         instance: 609fd78a-7043-4757-9204-6446e2bf379f
+           uptime: 00:00:00.903
+       processors: 4
+           drift : 0
+    memory(t/u/f): 119/16/102
+          threads: 7
+            Thread[Reference Handler,10,system]
+            Thread[Finalizer,8,system]
+            Thread[Signal Dispatcher,9,system]
+            Thread[Attach Listener,5,system]
+            Thread[main,5,main]
+            Thread[Q2-609fd78a-7043-4757-9204-6446e2bf379f,5,main]
+            Thread[pool-1-thread-1,5,main]
+            Thread[Timer-0,5,main]
+            Thread[channel-sender-jpos-client-send,5,main]
+            Thread[channel-receiver-jpos-client-receive,5,main]
+            Thread[SystemMonitor,5,main]
+         encoding: windows-1252
+    name-registrar:
+      tspace:default: org.jpos.space.TSpace
+        <keycount>-1</keycount>
+        <gcinfo>0,0</gcinfo>
+
+      jpos-client-adaptor: org.jpos.q2.iso.ChannelAdaptor
+        tx=0, rx=0, connects=0, last=0
+      logger.Q2: org.jpos.util.Logger
+      channel.jpos-client-adaptor: com.jpos.client.main.iso.MyChannel
+      mux.jpos-client-mux: org.jpos.q2.iso.QMUX
+        tx=0, rx=0, tx_expired=0, tx_pending=0, rx_expired=0, rx_pending=0, rx_unhandled=0, rx_forwarded=0, connected=true, last=0
+      logger.Q2.buffered: org.jpos.util.BufferedLogListener
+      jpos-client-manager: com.jpos.client.main.iso.ChannelManager
+  </info>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 16:37:01.665 SGT 2016" lifespan="14ms">
+  <connect>
+    127.0.0.1:13337
+  </connect>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 16:37:03.936 SGT 2016" lifespan="4ms">
+  <send>
+    <isomsg direction="outgoing">
+      <!-- org.jpos.iso.packager.ISO87APackager -->
+      <field id="0" value="0800"/>
+      <field id="7" value="1121043703"/>
+      <field id="11" value="000282"/>
+      <field id="70" value="301"/>
+    </isomsg>
+  </send>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 16:37:03.946 SGT 2016" lifespan="2278ms">
+  <receive>
+    <isomsg direction="incoming">
+      <!-- org.jpos.iso.packager.ISO87APackager -->
+      <field id="0" value="0810"/>
+      <field id="7" value="1121043703"/>
+      <field id="11" value="000282"/>
+      <field id="39" value="00"/>
+      <field id="70" value="301"/>
+    </isomsg>
+  </receive>
+</log>
+<log realm="jpos-client-application" at="Mon Nov 21 16:37:03.948 SGT 2016">
+  <info>
+    Response time (ms):16
+  </info>
+</log>
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="Mon Nov 21 16:41:56.259 SGT 2016" lifespan="500ms">
+  <info>
+    Q2 started, deployDir=E:\Andara Code Repositories\jPosClient\deploy
+    
+    jPOS 2.0.0 master/be6e219 (2015-02-25 22:04:06 UYST) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </info>
+</log>
+<log realm="Q2.system" at="Mon Nov 21 16:41:56.271 SGT 2016" lifespan="6ms">
+  <info>
+    deploy: E:\Andara Code Repositories\jPosClient\deploy\10_client_channel.xml
+  </info>
+</log>
+<log realm="Q2.system" at="Mon Nov 21 16:41:56.279 SGT 2016" lifespan="7ms">
+  <info>
+    deploy: E:\Andara Code Repositories\jPosClient\deploy\20_client_mux.xml
+  </info>
+</log>
+<log realm="jpos-client-application" at="Mon Nov 21 16:41:56.284 SGT 2016">
+  <info>
+    initializing jpos-client Service...
+  </info>
+</log>
+<log realm="jpos-client-application" at="Mon Nov 21 16:41:56.286 SGT 2016">
+  <info>
+    jpos-client is ready!
+  </info>
+</log>
+<log realm="Q2.system" at="Mon Nov 21 16:41:56.287 SGT 2016" lifespan="7ms">
+  <info>
+    deploy: E:\Andara Code Repositories\jPosClient\deploy\30_client_channel_manager.xml
+  </info>
+</log>
+<log realm="Q2.system" at="Mon Nov 21 16:41:56.294 SGT 2016" lifespan="6ms">
+  <info>
+    deploy: E:\Andara Code Repositories\jPosClient\deploy\99_sysmon.xml
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="Mon Nov 21 16:41:56.315 SGT 2016">
+  <info>
+    Starting SystemMonitor
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="Mon Nov 21 16:41:56.316 SGT 2016">
+  <info>
+               OS: Windows 7
+             host: rudy-PC/192.168.2.150
+          version: 2.0.0 (be6e219)
+         instance: 523a80e4-2f69-4a10-b95c-1718c1d57315
+           uptime: 00:00:00.885
+       processors: 4
+           drift : 0
+    memory(t/u/f): 119/16/102
+          threads: 7
+            Thread[Reference Handler,10,system]
+            Thread[Finalizer,8,system]
+            Thread[Signal Dispatcher,9,system]
+            Thread[Attach Listener,5,system]
+            Thread[main,5,main]
+            Thread[Q2-523a80e4-2f69-4a10-b95c-1718c1d57315,5,main]
+            Thread[pool-1-thread-1,5,main]
+            Thread[Timer-0,5,main]
+            Thread[channel-sender-jpos-client-send,5,main]
+            Thread[channel-receiver-jpos-client-receive,5,main]
+            Thread[SystemMonitor,5,main]
+         encoding: windows-1252
+    name-registrar:
+      tspace:default: org.jpos.space.TSpace
+        <keycount>-1</keycount>
+        <gcinfo>0,0</gcinfo>
+
+      jpos-client-adaptor: org.jpos.q2.iso.ChannelAdaptor
+        tx=0, rx=0, connects=0, last=0
+      logger.Q2: org.jpos.util.Logger
+      channel.jpos-client-adaptor: com.jpos.client.main.iso.MyChannel
+      mux.jpos-client-mux: org.jpos.q2.iso.QMUX
+        tx=0, rx=0, tx_expired=0, tx_pending=0, rx_expired=0, rx_pending=0, rx_unhandled=0, rx_forwarded=0, connected=true, last=0
+      logger.Q2.buffered: org.jpos.util.BufferedLogListener
+      jpos-client-manager: com.jpos.client.main.iso.ChannelManager
+  </info>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 16:41:56.329 SGT 2016" lifespan="14ms">
+  <connect>
+    127.0.0.1:13337
+  </connect>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 16:41:58.594 SGT 2016" lifespan="1ms">
+  <send>
+    <isomsg direction="outgoing">
+      <!-- org.jpos.iso.packager.ISO87APackager -->
+      <field id="0" value="0800"/>
+      <field id="7" value="1121044158"/>
+      <field id="11" value="000041"/>
+      <field id="70" value="301"/>
+    </isomsg>
+  </send>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 16:41:58.613 SGT 2016" lifespan="2283ms">
+  <receive>
+    <isomsg direction="incoming">
+      <!-- org.jpos.iso.packager.ISO87APackager -->
+      <field id="0" value="0810"/>
+      <field id="7" value="1121044158"/>
+      <field id="11" value="000041"/>
+      <field id="39" value="00"/>
+      <field id="70" value="301"/>
+    </isomsg>
+  </receive>
+</log>
+<log realm="jpos-client-application" at="Mon Nov 21 16:41:58.616 SGT 2016">
+  <info>
+    Response time (ms):23
+  </info>
+</log>
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="Mon Nov 21 16:44:03.037 SGT 2016" lifespan="514ms">
+  <info>
+    Q2 started, deployDir=E:\Andara Code Repositories\jPosClient\deploy
+    
+    jPOS 2.0.0 master/be6e219 (2015-02-25 22:04:06 UYST) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </info>
+</log>
+<log realm="Q2.system" at="Mon Nov 21 16:44:03.050 SGT 2016" lifespan="7ms">
+  <info>
+    deploy: E:\Andara Code Repositories\jPosClient\deploy\10_client_channel.xml
+  </info>
+</log>
+<log realm="Q2.system" at="Mon Nov 21 16:44:03.058 SGT 2016" lifespan="6ms">
+  <info>
+    deploy: E:\Andara Code Repositories\jPosClient\deploy\20_client_mux.xml
+  </info>
+</log>
+<log realm="jpos-client-application" at="Mon Nov 21 16:44:03.064 SGT 2016">
+  <info>
+    initializing jpos-client Service...
+  </info>
+</log>
+<log realm="jpos-client-application" at="Mon Nov 21 16:44:03.065 SGT 2016">
+  <info>
+    jpos-client is ready!
+  </info>
+</log>
+<log realm="Q2.system" at="Mon Nov 21 16:44:03.066 SGT 2016" lifespan="7ms">
+  <info>
+    deploy: E:\Andara Code Repositories\jPosClient\deploy\30_client_channel_manager.xml
+  </info>
+</log>
+<log realm="Q2.system" at="Mon Nov 21 16:44:03.072 SGT 2016" lifespan="5ms">
+  <info>
+    deploy: E:\Andara Code Repositories\jPosClient\deploy\99_sysmon.xml
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="Mon Nov 21 16:44:03.089 SGT 2016">
+  <info>
+    Starting SystemMonitor
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="Mon Nov 21 16:44:03.090 SGT 2016">
+  <info>
+               OS: Windows 7
+             host: rudy-PC/192.168.2.150
+          version: 2.0.0 (be6e219)
+         instance: 5ef6a0b6-3ea5-44c7-9411-9f32f83ffb13
+           uptime: 00:00:00.885
+       processors: 4
+           drift : 0
+    memory(t/u/f): 119/16/102
+          threads: 7
+            Thread[Reference Handler,10,system]
+            Thread[Finalizer,8,system]
+            Thread[Signal Dispatcher,9,system]
+            Thread[Attach Listener,5,system]
+            Thread[main,5,main]
+            Thread[Q2-5ef6a0b6-3ea5-44c7-9411-9f32f83ffb13,5,main]
+            Thread[pool-1-thread-1,5,main]
+            Thread[Timer-0,5,main]
+            Thread[channel-sender-jpos-client-send,5,main]
+            Thread[channel-receiver-jpos-client-receive,5,main]
+            Thread[SystemMonitor,5,main]
+         encoding: windows-1252
+    name-registrar:
+      tspace:default: org.jpos.space.TSpace
+        <keycount>-1</keycount>
+        <gcinfo>0,0</gcinfo>
+
+      jpos-client-adaptor: org.jpos.q2.iso.ChannelAdaptor
+        tx=0, rx=0, connects=0, last=0
+      logger.Q2: org.jpos.util.Logger
+      channel.jpos-client-adaptor: com.jpos.client.main.iso.MyChannel
+      mux.jpos-client-mux: org.jpos.q2.iso.QMUX
+        tx=0, rx=0, tx_expired=0, tx_pending=0, rx_expired=0, rx_pending=0, rx_unhandled=0, rx_forwarded=0, connected=true, last=0
+      logger.Q2.buffered: org.jpos.util.BufferedLogListener
+      jpos-client-manager: com.jpos.client.main.iso.ChannelManager
+  </info>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 16:44:03.106 SGT 2016" lifespan="17ms">
+  <connect>
+    127.0.0.1:13337
+  </connect>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 16:44:05.369 SGT 2016" lifespan="1ms">
+  <send>
+    <isomsg direction="outgoing">
+      <!-- org.jpos.iso.packager.ISO87APackager -->
+      <field id="0" value="0800"/>
+      <field id="7" value="1121044405"/>
+      <field id="11" value="000112"/>
+      <field id="70" value="301"/>
+    </isomsg>
+  </send>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 16:44:05.383 SGT 2016" lifespan="2274ms">
+  <receive>
+    <isomsg direction="incoming">
+      <!-- org.jpos.iso.packager.ISO87APackager -->
+      <field id="0" value="0810"/>
+      <field id="7" value="1121044405"/>
+      <field id="11" value="000112"/>
+      <field id="39" value="00"/>
+      <field id="70" value="301"/>
+    </isomsg>
+  </receive>
+</log>
+<log realm="jpos-client-application" at="Mon Nov 21 16:44:05.386 SGT 2016">
+  <info>
+    Response time (ms):18
+  </info>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 16:49:05.367 SGT 2016" lifespan="299982ms">
+  <receive>
+    <peer-disconnect/>
+  </receive>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="Mon Nov 21 16:49:05.369 SGT 2016">
+  <warn>
+    channel-receiver-jpos-client-receive
+    <exception name="null">
+    java.io.EOFException
+	at java.io.DataInputStream.readFully(Unknown Source)
+	at com.jpos.client.main.iso.MyChannel.getMessageLength(MyChannel.java:28)
+	at org.jpos.iso.BaseChannel.receive(BaseChannel.java:699)
+	at org.jpos.q2.iso.ChannelAdaptor$Receiver.run(ChannelAdaptor.java:317)
+	at java.lang.Thread.run(Unknown Source)
+    </exception>
+  </warn>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 16:49:05.386 SGT 2016" lifespan="12ms">
+  <connect>
+    127.0.0.1:13337
+  </connect>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Mon Nov 21 16:49:15.390 SGT 2016" lifespan="2ms">
+  <connect>
+    127.0.0.1:13337
+  </connect>
+</log>
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="Tue Nov 22 10:02:04.340 SGT 2016" lifespan="499ms">
+  <info>
+    Q2 started, deployDir=E:\Andara Code Repositories\jPosClient\deploy
+    
+    jPOS 2.0.0 master/be6e219 (2015-02-25 22:04:06 UYST) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </info>
+</log>
+<log realm="Q2.system" at="Tue Nov 22 10:02:04.353 SGT 2016" lifespan="7ms">
+  <info>
+    deploy: E:\Andara Code Repositories\jPosClient\deploy\10_client_channel.xml
+  </info>
+</log>
+<log realm="Q2.system" at="Tue Nov 22 10:02:04.359 SGT 2016" lifespan="5ms">
+  <info>
+    deploy: E:\Andara Code Repositories\jPosClient\deploy\20_client_mux.xml
+  </info>
+</log>
+<log realm="jpos-client-application" at="Tue Nov 22 10:02:04.364 SGT 2016">
+  <info>
+    initializing jpos-client Service...
+  </info>
+</log>
+<log realm="jpos-client-application" at="Tue Nov 22 10:02:04.365 SGT 2016">
+  <info>
+    jpos-client is ready!
+  </info>
+</log>
+<log realm="Q2.system" at="Tue Nov 22 10:02:04.366 SGT 2016" lifespan="6ms">
+  <info>
+    deploy: E:\Andara Code Repositories\jPosClient\deploy\30_client_channel_manager.xml
+  </info>
+</log>
+<log realm="Q2.system" at="Tue Nov 22 10:02:04.374 SGT 2016" lifespan="6ms">
+  <info>
+    deploy: E:\Andara Code Repositories\jPosClient\deploy\99_sysmon.xml
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="Tue Nov 22 10:02:04.390 SGT 2016">
+  <info>
+    Starting SystemMonitor
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="Tue Nov 22 10:02:04.391 SGT 2016">
+  <info>
+               OS: Windows 7
+             host: rudy-PC/192.168.2.150
+          version: 2.0.0 (be6e219)
+         instance: f8a1cc1a-66d7-4c7f-9fd4-cdfcb00fa9b5
+           uptime: 00:00:00.924
+       processors: 4
+           drift : 0
+    memory(t/u/f): 119/16/102
+          threads: 7
+            Thread[Reference Handler,10,system]
+            Thread[Finalizer,8,system]
+            Thread[Signal Dispatcher,9,system]
+            Thread[Attach Listener,5,system]
+            Thread[main,5,main]
+            Thread[Q2-f8a1cc1a-66d7-4c7f-9fd4-cdfcb00fa9b5,5,main]
+            Thread[pool-1-thread-1,5,main]
+            Thread[Timer-0,5,main]
+            Thread[channel-sender-jpos-client-send,5,main]
+            Thread[channel-receiver-jpos-client-receive,5,main]
+            Thread[SystemMonitor,5,main]
+         encoding: windows-1252
+    name-registrar:
+      tspace:default: org.jpos.space.TSpace
+        <keycount>-1</keycount>
+        <gcinfo>0,0</gcinfo>
+
+      jpos-client-adaptor: org.jpos.q2.iso.ChannelAdaptor
+        tx=0, rx=0, connects=0, last=0
+      logger.Q2: org.jpos.util.Logger
+      channel.jpos-client-adaptor: com.jpos.client.main.iso.MyChannel
+      mux.jpos-client-mux: org.jpos.q2.iso.QMUX
+        tx=0, rx=0, tx_expired=0, tx_pending=0, rx_expired=0, rx_pending=0, rx_unhandled=0, rx_forwarded=0, connected=true, last=0
+      logger.Q2.buffered: org.jpos.util.BufferedLogListener
+      jpos-client-manager: com.jpos.client.main.iso.ChannelManager
+  </info>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Tue Nov 22 10:02:04.403 SGT 2016" lifespan="13ms">
+  <connect>
+    127.0.0.1:13337
+  </connect>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Tue Nov 22 10:02:06.672 SGT 2016" lifespan="1ms">
+  <send>
+    <isomsg direction="outgoing">
+      <!-- com.jpos.client.main.iso.MyPackager -->
+      <field id="0" value="0800"/>
+      <field id="7" value="1122100206"/>
+      <field id="11" value="000200"/>
+      <field id="70" value="301"/>
+    </isomsg>
+  </send>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Tue Nov 22 10:02:06.683 SGT 2016" lifespan="2277ms">
+  <receive>
+    <isomsg direction="incoming">
+      <!-- com.jpos.client.main.iso.MyPackager -->
+      <field id="0" value="0810"/>
+      <field id="7" value="1122100206"/>
+      <field id="11" value="000200"/>
+      <field id="39" value="00"/>
+      <field id="70" value="301"/>
+    </isomsg>
+  </receive>
+</log>
+<log realm="jpos-client-application" at="Tue Nov 22 10:02:06.685 SGT 2016">
+  <info>
+    Response time (ms):14
+  </info>
+</log>
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="Tue Nov 22 13:25:33.802 SGT 2016" lifespan="587ms">
+  <info>
+    Q2 started, deployDir=E:\Andara Code Repositories\jPosClient\deploy
+    
+    jPOS 2.0.0 master/be6e219 (2015-02-25 22:04:06 UYST) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </info>
+</log>
+<log realm="Q2.system" at="Tue Nov 22 13:25:33.814 SGT 2016" lifespan="7ms">
+  <info>
+    deploy: E:\Andara Code Repositories\jPosClient\deploy\10_client_channel.xml
+  </info>
+</log>
+<log realm="Q2.system" at="Tue Nov 22 13:25:33.820 SGT 2016" lifespan="5ms">
+  <info>
+    deploy: E:\Andara Code Repositories\jPosClient\deploy\20_client_mux.xml
+  </info>
+</log>
+<log realm="jpos-client-application" at="Tue Nov 22 13:25:33.833 SGT 2016">
+  <info>
+    initializing jpos-client Service...
+  </info>
+</log>
+<log realm="jpos-client-application" at="Tue Nov 22 13:25:33.834 SGT 2016">
+  <info>
+    jpos-client is ready!
+  </info>
+</log>
+<log realm="Q2.system" at="Tue Nov 22 13:25:33.835 SGT 2016" lifespan="14ms">
+  <info>
+    deploy: E:\Andara Code Repositories\jPosClient\deploy\30_client_channel_manager.xml
+  </info>
+</log>
+<log realm="Q2.system" at="Tue Nov 22 13:25:33.840 SGT 2016" lifespan="5ms">
+  <info>
+    deploy: E:\Andara Code Repositories\jPosClient\deploy\99_sysmon.xml
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="Tue Nov 22 13:25:33.856 SGT 2016">
+  <info>
+    Starting SystemMonitor
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="Tue Nov 22 13:25:33.857 SGT 2016">
+  <info>
+               OS: Windows 7
+             host: rudy-PC/192.168.2.150
+          version: 2.0.0 (be6e219)
+         instance: 8cabbcbe-5c8d-4e88-bddb-6e6cfe204387
+           uptime: 00:00:00.969
+       processors: 4
+           drift : 0
+    memory(t/u/f): 119/16/102
+          threads: 7
+            Thread[Reference Handler,10,system]
+            Thread[Finalizer,8,system]
+            Thread[Signal Dispatcher,9,system]
+            Thread[Attach Listener,5,system]
+            Thread[main,5,main]
+            Thread[Q2-8cabbcbe-5c8d-4e88-bddb-6e6cfe204387,5,main]
+            Thread[pool-1-thread-1,5,main]
+            Thread[Timer-0,5,main]
+            Thread[channel-sender-jpos-client-send,5,main]
+            Thread[channel-receiver-jpos-client-receive,5,main]
+            Thread[SystemMonitor,5,main]
+         encoding: windows-1252
+    name-registrar:
+      tspace:default: org.jpos.space.TSpace
+        <keycount>-1</keycount>
+        <gcinfo>0,0</gcinfo>
+
+      jpos-client-adaptor: org.jpos.q2.iso.ChannelAdaptor
+        tx=0, rx=0, connects=0, last=0
+      logger.Q2: org.jpos.util.Logger
+      channel.jpos-client-adaptor: com.jpos.client.main.iso.MyChannel
+      mux.jpos-client-mux: org.jpos.q2.iso.QMUX
+        tx=0, rx=0, tx_expired=0, tx_pending=0, rx_expired=0, rx_pending=0, rx_unhandled=0, rx_forwarded=0, connected=true, last=0
+      logger.Q2.buffered: org.jpos.util.BufferedLogListener
+      jpos-client-manager: com.jpos.client.main.iso.ChannelManager
+  </info>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Tue Nov 22 13:25:33.883 SGT 2016" lifespan="27ms">
+  <connect>
+    127.0.0.1:13337
+  </connect>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Tue Nov 22 13:25:36.066 SGT 2016" lifespan="11ms">
+  <send>
+    <isomsg direction="outgoing">
+      <!-- com.jpos.client.main.iso.MyPackager -->
+      <field id="0" value="0800"/>
+      <field id="7" value="1122012536"/>
+      <field id="11" value="000282"/>
+      <field id="70" value="301"/>
+    </isomsg>
+  </send>
+</log>
+<log realm="channel/127.0.0.1:13337" at="Tue Nov 22 13:25:36.076 SGT 2016" lifespan="2190ms">
+  <receive>
+    <isomsg direction="incoming">
+      <!-- com.jpos.client.main.iso.MyPackager -->
+      <field id="0" value="0810"/>
+      <field id="7" value="1122012536"/>
+      <field id="11" value="000282"/>
+      <field id="39" value="00"/>
+      <field id="70" value="301"/>
+    </isomsg>
+  </receive>
+</log>
+<log realm="jpos-client-application" at="Tue Nov 22 13:25:36.079 SGT 2016">
+  <info>
+    Response time (ms):24
+  </info>
+</log>
