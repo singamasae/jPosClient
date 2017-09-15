@@ -4,4 +4,8 @@
 	<in>jpos-client-receive</in>
 	<out>jpos-client-send</out>
 	<unhandled>jpos-client-unhandled</unhandled>
+	
+	<request-listener class="com.jpos.client.main.iso.RequestListener" logger="Q2">		
+	</request-listener>
+	
 </mux>

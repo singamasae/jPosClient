@@ -35,7 +35,7 @@ public class ChannelManager extends QBeanSupport {
 	}
 
 	private ISOMsg sendRequest(ISOMsg request, MUX mux, long time) throws Exception {
-
+		
 		if (mux != null) {
 			long start = System.currentTimeMillis();
 			ISOMsg response = mux.request(request, time);
