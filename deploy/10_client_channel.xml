@@ -3,8 +3,8 @@
 	logger="Q2">
 	
 	<channel class="com.jpos.client.main.iso.MyChannel" logger="Q2" packager="com.jpos.client.main.iso.MyPackager">		
-		<property name="host" value="127.0.0.1" />
-		<property name="port" value="31730" />
+		<property name="host" value="192.168.150.50" />
+		<property name="port" value="10730" />
 	</channel>
 	<in>jpos-client-send</in>
 	<out>jpos-client-receive</out>

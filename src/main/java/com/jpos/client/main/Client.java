@@ -301,6 +301,7 @@ public class Client {
 			} else {
 				System.out.println("Response sign on: " + new String(response.pack()));
 
+				/*
 				ISOMsg inquiryRequest = createPostpaidInquiryRequest();
 				response = channelManager.sendRequest(inquiryRequest);
 
@@ -345,7 +346,7 @@ public class Client {
 						
 						//System.out.println("Response payment: " + new String(response.pack()));						
 					}				
-				}
+				} */
 
 			}
 		}
